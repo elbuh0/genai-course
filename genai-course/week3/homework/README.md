@@ -1,0 +1,1 @@
+I called LLM APIs to complete multiple tasks, including document summary, entity extraction, and structured reasoning including no and few-shot, alongside a hallucination audit. I was surprised that hallucination persisted at an unchanged rate even when explicitly instructing the selected LLM to refuse answering questions for which it lacked accurate and precise answers.
