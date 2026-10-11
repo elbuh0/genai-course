@@ -1,0 +1,7 @@
+Recommendation Memo: Integrating LLMs for Repeat Tasks According to Mission Criticality
+
+For low-stakes yet time-consuming repeat tasks such as initial email outreach, we confidently recommend a few-shot V4 approach, i.e., structured output with role plus at least two examples. We did not observe failure modes in this specific use case unduly compromising task completion and success.
+
+However, for safety- and mission-critical tasks, e.g., pharmacology or national security, we recommend human-in-the-loop with RAG as the mandatory minimum-safety architecture. This is due to an inherent potential for LLM hallucination, especially plausible and convincing yet incorrect responses that may persuade humans to act errantly in high-stakes environments. Notably, we observed the plausible-yet-incorrect hallucination type even when adjusting task prompts to explicitly instruct queried LLMs to refrain from answering questions absent accurate and precise answers. Our findings emphasize the architectural limitation of applying probabilistic LLMs lacking ground truth to tasks requiring rare factual knowledge and associated reasoning.
+
+Providing curated reference documents and/or proprietary data does mitigate hallucination, including the plausible-yet-incorrect type, which is why we recommend RAG. Safety- and mission-critical applications may, however, require an additional layer of security, specifically expert human review, to avoid dangerous undetected errors.
