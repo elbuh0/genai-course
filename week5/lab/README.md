@@ -1,0 +1,1 @@
+Used a multi-modal pipeline to generate a 3-scene story about a war-traumatized soldier using GPT-4o to generate both the narration text and image prompt in the same call, outputting (somewhat) tonally aligned voice narrations with illustrating visual stills. Ultimately Bark was unable to match the gravity of my chosen topic, resulting in a flippant pod-caster type narration.
