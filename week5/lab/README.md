@@ -1,0 +1,1 @@
+Used a multi-modal pipeline to generate a 3-scene story about a war-traumatized soldier using GPT-4o to generate both the narration text and image prompt in the same call for a tonally aligned voice narration and illustrating visual still.
