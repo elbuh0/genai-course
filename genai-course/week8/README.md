@@ -1,0 +1,1 @@
+I built a ReAct agent and attempted to induce various failure modes. I was surprised at how well GPT-4o behaved in tasks and with tool error messages designed to induce hallucination. 
